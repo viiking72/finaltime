@@ -1,5 +1,5 @@
 const mongoose=require("mongoose")
-mongoose.connect("mongodb://localhost:27017/newdata")
+mongoose.connect("mongodb+srv://vsingh0699572:VS123456@cluster0.2qz2a.mongodb.net/")
 .then(()=>{
     console.log("Database connect ho chuka hai.")
 })
